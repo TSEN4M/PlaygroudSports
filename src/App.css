@@ -1,7 +1,6 @@
 .header{
     display: flex;
     margin-left: 60%; 
-    margin: 0;
 }
 .header li {
     padding: 10px;
