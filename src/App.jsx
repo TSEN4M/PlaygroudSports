@@ -6,6 +6,7 @@ import Booking from './components/Booking.jsx';
 import Community from './components/Community.jsx';
 import AboutUs from './components/AboutUs.jsx';
 import './App.css'
+import Footer from './components/Footer.jsx';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
           <Route path="/community" element={<Community />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
