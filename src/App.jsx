@@ -1,16 +1,13 @@
-import { useState } from 'react'
+import React from 'react';
+import LandingPage from './components/LandingPage.jsx';
+import './App.css';
 
-
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      
-    </>
-  )
-}
+    <div className="App">
+      <LandingPage />
+    </div>
+  );
+};
 
-export default App
+export default App;
